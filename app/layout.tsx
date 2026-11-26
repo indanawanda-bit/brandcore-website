@@ -14,18 +14,18 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "BrandCore Indonesia | Strategic Communication & Digital Intelligence",
+    default: "BrandCore Indonesia | CorePR, Press Release Distribution & SEO",
     template: "%s | BrandCore Indonesia"
   },
-  description: "BrandCore Indonesia adalah agency strategic communication dan digital intelligence. Kami membantu organisasi membangun reputasi, mengelola media, serta memperkuat SEO, GEO, dan visibilitas digital.",
+  description: "BrandCore Indonesia menghadirkan CorePR sebagai platform manajemen PR, jasa distribusi press release ke media online, dan layanan SEO untuk meningkatkan visibilitas organik bisnis.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     locale: "id_ID",
     siteName: "BrandCore Indonesia",
     url: siteUrl,
-    title: "BrandCore Indonesia | Strategic Communication & Digital Intelligence",
-    description: "Agency strategic communication dan digital intelligence untuk reputasi, media intelligence, SEO, GEO, dan visibilitas digital.",
+    title: "BrandCore Indonesia | CorePR, Press Release Distribution & SEO",
+    description: "CorePR, distribusi press release ke media online, dan layanan SEO untuk membantu organisasi bekerja lebih efisien dan memperkuat visibilitas digital.",
     images: [{ url: logoUrl, width: 138, height: 155, alt: "Logo BrandCore Indonesia" }]
   },
   twitter: {
