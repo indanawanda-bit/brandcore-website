@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import ScrollEffects from "./components/ScrollEffects";
+import SiteLayout from "./components/SiteLayout";
 
 const siteUrl = "https://www.brandcore.id";
 const logoUrl = "https://apps.brandcore.id/brandcore-logo-transparent.png";
@@ -47,5 +48,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="id"><body>{children}<ScrollEffects /></body></html>;
+  return <html lang="id"><body><SiteLayout>{children}</SiteLayout><ScrollEffects /></body></html>;
 }
