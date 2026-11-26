@@ -202,3 +202,35 @@
 @media(max-width:720px){.corepr-shell{width:min(100% - 36px,560px)}.corepr-hero{padding:65px 0 50px}.corepr-hero-grid,.corepr-two-col{grid-template-columns:1fr}.corepr-hero h1{font-size:clamp(38px,10vw,53px)}.corepr-hero-visual{min-height:365px;margin-top:12px}.corepr-dashboard{padding:14px}.corepr-orbit{width:320px;height:320px}.tag-extract{right:0}.tag-sentiment{left:0}.corepr-proof-grid{grid-template-columns:1fr 1fr;row-gap:17px}.corepr-proof-grid>div:nth-child(2){border:0}.corepr-section{padding:65px 0}.corepr-section-heading{display:block}.corepr-section-heading>p{margin-top:16px}.corepr-steps{grid-template-columns:1fr 1fr;gap:22px}.corepr-steps article{border:0;margin:0;padding:0}.corepr-audience-grid{grid-template-columns:1fr}.corepr-faq-grid{grid-template-columns:1fr}.corepr-role-list>div{grid-template-columns:25px 1fr}.corepr-role-list small{grid-column:2}.corepr-cta{padding:60px 0}}
 @media(max-width:420px){.corepr-stat-grid{gap:5px}.corepr-stat-grid>div{padding:9px 7px}.corepr-stat-grid b{font-size:19px}.corepr-stat-grid small{font-size:6px}.corepr-dash-lower{grid-template-columns:1fr}.corepr-chart{display:none}.corepr-feature-grid{grid-template-columns:1fr}.corepr-trustline{font-size:7px;gap:7px}}
 @media(prefers-reduced-motion:reduce){.corepr-orbit,.corepr-dashboard,.corepr-float-tag,.corepr-feed-row>i,.corepr-chart>div i,.corepr-process span{animation:none!important}}
+
+/* Focused homepage product and service presentation */
+.featured-solutions{background:#faf8f7}
+.solution-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:stretch}
+.solution-card{display:flex;flex-direction:column;align-items:flex-start;padding:30px 27px;background:#fff;border:1px solid var(--line);min-height:100%;box-shadow:0 10px 28px rgba(38,22,24,.035)}
+.solution-card.solution-corepr{background:#2a2425;color:#fff;border-color:#2a2425}
+.solution-index{font-size:9px;font-weight:900;letter-spacing:.14em;color:var(--wine)}
+.solution-corepr .solution-index{color:#e5b7bf}
+.solution-tag{margin-top:26px;font-size:9px;font-weight:900;letter-spacing:.13em;color:#9b777e}
+.solution-card h3{margin:9px 0 12px;font:800 27px/1.2 Manrope,sans-serif;letter-spacing:-.03em;color:var(--ink)}
+.solution-corepr h3{color:#fff}
+.solution-card p{font-size:13px;line-height:1.8;color:var(--muted);margin:0}
+.solution-corepr p{color:#d7cbcd}
+.solution-card ul{padding-left:18px;margin:18px 0 24px;color:#5f585a;font-size:12px;line-height:1.9}
+.solution-corepr ul{color:#e3d9da}
+.solution-card .btn,.solution-card .textlink{margin-top:auto}
+.solution-secondary{margin-top:14px;color:#f0cbd1;font-size:11px;font-weight:700}
+.service-more{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:start}
+.service-more>div{padding:19px 20px;border-left:2px solid #c99aa2;background:#faf8f7;display:flex;flex-direction:column;gap:8px}
+.service-more b{font:700 14px Manrope;color:#342c2e}
+.service-more span{font-size:12px;line-height:1.7;color:var(--muted)}
+.service-more>.btn{justify-self:start;grid-column:1/-1;margin-top:10px}
+.service-detail-links{margin-top:55px}
+.service-detail-links h2{margin-bottom:20px}
+.service-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.service-detail-link{display:flex;flex-direction:column;gap:8px;padding:21px;border:1px solid var(--line);background:#fff;transition:border-color .2s,transform .2s}
+.service-detail-link:hover{border-color:#c58b94;transform:translateY(-2px)}
+.service-detail-link b{font:700 15px Manrope;color:var(--ink)}
+.service-detail-link span{font-size:12px;line-height:1.7;color:var(--muted)}
+.service-detail-link i{font-size:11px;font-style:normal;font-weight:800;color:var(--wine);margin-top:4px}
+@media(max-width:900px){.solution-grid{grid-template-columns:1fr 1fr}.solution-card:first-child{grid-row:span 2}.service-more{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.solution-grid,.service-more,.service-detail-grid{grid-template-columns:1fr}.solution-card:first-child{grid-row:auto}.service-more>.btn{grid-column:auto}}
