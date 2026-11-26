@@ -274,3 +274,27 @@
 @media(max-width:900px){.agency-visual{min-height:410px;transform:translateY(-28px)}.ring-outer{width:360px;height:360px}.ring-inner{width:270px;height:270px}.agency-node{min-width:137px}.node-media{left:0}.node-brand{right:0}.node-audience{left:0}.node-digital{right:0}}
 @media(max-width:600px){.agency-visual{min-height:370px;margin-top:8px;transform:translateY(-12px)}.ring-outer{width:310px;height:310px}.ring-inner{width:230px;height:230px}.agency-core{width:140px;height:140px}.agency-node{min-width:116px;padding:9px 10px;grid-template-columns:24px 1fr;column-gap:7px}.agency-node .node-icon{width:24px;height:24px}.agency-node b{font-size:8px}.agency-node small{font-size:6px}.node-media{top:5%;left:-2%}.node-brand{top:5%;right:-2%}.node-audience{bottom:12%;left:-2%}.node-digital{bottom:12%;right:-2%}.agency-float{display:none}.agency-caption{bottom:0;font-size:7px}}
 @media(prefers-reduced-motion:reduce){.agency-ring,.agency-core,.agency-node,.caption-pulse{animation:none!important}}
+
+/* Hero composition: keep the full agency ecosystem illustration in view */
+.hero{padding:64px 0 52px}
+.hero-layout{align-items:start}
+.agency-visual{min-height:420px;transform:none;margin-top:-28px}
+.agency-ring.ring-outer{width:380px;height:380px}
+.agency-ring.ring-inner{width:280px;height:280px}
+.agency-brand-logo{display:block;width:88px;height:58px;object-fit:contain;position:relative;z-index:2}
+.agency-core{gap:5px}
+.agency-core small{font-size:7px;margin-top:0}
+@media(max-width:900px){
+ .hero{padding:52px 0 42px}
+ .hero-layout{align-items:center}
+ .agency-visual{min-height:390px;transform:none;margin-top:-10px}
+ .agency-ring.ring-outer{width:350px;height:350px}
+ .agency-ring.ring-inner{width:260px;height:260px}
+}
+@media(max-width:600px){
+ .hero{padding:36px 0 34px}
+ .agency-visual{min-height:350px;transform:none;margin-top:0}
+ .agency-ring.ring-outer{width:310px;height:310px}
+ .agency-ring.ring-inner{width:230px;height:230px}
+ .agency-brand-logo{width:72px;height:48px}
+}
