@@ -1,4 +1,5 @@
-import Link from "next/link";\nimport FloatingWhatsApp from "./components/FloatingWhatsApp";
+import Link from "next/link";
+import FloatingWhatsApp from "./components/FloatingWhatsApp";
 
 const services = [
 ["01","Public Relations & Strategic Communication","Membangun kepercayaan melalui strategi komunikasi, hubungan media, pengelolaan reputasi, dan komunikasi korporat."],
