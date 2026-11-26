@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";\nimport FloatingWhatsApp from "../components/FloatingWhatsApp";
+import { notFound } from "next/navigation";
+import FloatingWhatsApp from "../components/FloatingWhatsApp";
 
 const pages: Record<string,{title:string;eyebrow:string;intro:string;sections:{heading:string;body:string;items?:string[]}[]}> = {
 "about":{title:"Kami Bekerja dari Core-nya.",eyebrow:"About BrandCore",intro:"BrandCore adalah mitra strategic communication dan digital intelligence yang membantu organisasi memahami tantangan, merancang pendekatan, dan menjalankan komunikasi yang relevan.",sections:[{heading:"Our philosophy",body:"Kami percaya solusi yang kuat berangkat dari pemahaman yang tepat. Setiap kerja sama dimulai dengan mendengarkan, memetakan konteks, memahami audiens, dan menyepakati tujuan."},{heading:"Our vision",body:"Menjadi mitra strategis yang dipercaya organisasi dalam mengelola komunikasi, reputasi, dan kecerdasan digital."},{heading:"Our mission",body:"Menghadirkan strategi yang kontekstual, eksekusi yang bertanggung jawab, dan insight yang membantu pengambilan keputusan."},{heading:"Our values",body:"Integrity, clarity, curiosity, collaboration, and accountability."}]},
