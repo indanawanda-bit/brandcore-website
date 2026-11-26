@@ -28,3 +28,24 @@
     will-change: auto;
   }
 }
+
+
+/* BrandCore 100+ media promotional banner */
+.promo-section{padding:30px 0 22px;background:var(--paper)}
+.promo-banner{position:relative;overflow:hidden;display:grid;grid-template-columns:1.35fr .65fr;gap:36px;align-items:center;padding:42px 48px;background:linear-gradient(120deg,#681b2a 0%,#8f2638 62%,#a33a4b 100%);color:#fff;border-radius:5px;box-shadow:0 18px 42px rgba(66,18,28,.14)}
+.promo-banner:after{content:"";position:absolute;width:360px;height:360px;border:1px solid rgba(255,255,255,.12);border-radius:50%;right:15%;top:-230px;pointer-events:none}
+.promo-copy,.promo-price{position:relative;z-index:1}
+.promo-kicker{display:flex;align-items:center;gap:9px;color:#f1cbd1;font-size:10px;font-weight:800;letter-spacing:.18em}
+.promo-dot{width:7px;height:7px;border-radius:50%;background:#fff}
+.promo-copy h2{font:800 clamp(30px,4vw,44px)/1.1 Manrope,sans-serif;letter-spacing:-.04em;margin:17px 0 12px}
+.promo-copy h2 em{font-style:normal;color:#f3cbd2}
+.promo-copy p{max-width:510px;color:#f5e5e8;font-size:14px;line-height:1.8;margin:0 0 23px}
+.promo-cta{display:inline-flex;align-items:center;gap:14px;padding:13px 18px;background:#fff;color:#681b2a;border-radius:3px;font-size:12px;font-weight:800;transition:transform .2s,background .2s}
+.promo-cta:hover{background:#f8edef;transform:translateY(-2px)}
+.promo-price{display:flex;flex-direction:column;align-items:flex-start;padding:22px 26px;border:1px solid rgba(255,255,255,.3);background:rgba(35,15,20,.18);border-radius:4px}
+.promo-badge{padding:7px 10px;background:#fff;color:#8f2638;font-size:10px;font-weight:900;letter-spacing:.12em;border-radius:2px}
+.promo-old-price{margin-top:16px;color:#f0cbd1;font-size:14px;text-decoration:line-through;text-decoration-thickness:1px}
+.promo-price-label{margin-top:7px;color:#f5e5e8;font-size:11px}
+.promo-price strong{font:800 clamp(29px,3.3vw,40px)/1.15 Manrope,sans-serif;letter-spacing:-.04em;margin-top:3px;white-space:nowrap}
+.promo-price small{margin-top:8px;color:#f0cbd1;font-size:11px}
+@media(max-width:760px){.promo-section{padding:22px 0 12px}.promo-banner{grid-template-columns:1fr;gap:25px;padding:30px 24px}.promo-price{padding:18px 20px}.promo-price strong{font-size:34px}}
